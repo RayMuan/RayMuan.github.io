@@ -1,13 +1,14 @@
 ---
 layout: post
-title: post-sample
-date: 2020-01-02 19:20:23 +0900
-category: SpringBoot
+title: Post
+date: 2024-04-09 14:14:23 +0900
+category: Sample
 ---
-# post-sample
-> Hello!
+# Sample
+> sample
 
 This is code
 ```ruby
 print 'hello world'
+print 'sample'
 ```
