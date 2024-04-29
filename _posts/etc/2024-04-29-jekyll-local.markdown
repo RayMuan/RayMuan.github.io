@@ -15,12 +15,12 @@ category: Etc.
 
 ---
 [Ruby](https://rubyinstaller.org/)  
-위 링크에서 원하는 버전의 루비를 다운받는다.
+해당 링크에서 원하는 버전의 루비를 다운받는다.
 ![img.png](/public/img/etc/img.png)
 1번 또는 3번을 입력해 다운 받는다. (나는 3번을 입력했다.)
 
 ![img.png](/public/img/etc/img_1.png)  
-이후 위의 프로그램 실행
+다운로드 완료 후 위의 프로그램 실행
 ```
 gem install jekyll bundle
 ```
