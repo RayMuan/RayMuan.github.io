@@ -16,20 +16,21 @@ category: Etc.
 ---
 [Ruby](https://rubyinstaller.org/)  
 위 링크에서 원하는 버전의 루비를 다운받는다.
-1번 또는 3번을 입력해 다운 받는다. (나는 3번을 입력했다.)  
-![img.png](../../public/img/etc/img.png)
-이후 위의 프로그램 실행
+![img.png](/public/img/etc/img.png)
+1번 또는 3번을 입력해 다운 받는다. (나는 3번을 입력했다.)
 
+![img.png](/public/img/etc/img_1.png)  
+이후 위의 프로그램 실행
 ```
 gem install jekyll bundle
 ```
-나는 미리 깃으로 블로그 프로젝트를 클론 해놨었기 떄문에 해당 위치로 이동만 했다.
+블로그 프로젝트를 미리 클론 해놨었기 떄문에 해당 위치로 이동만 했다.
 ```
 cd [유저이름.github.io 저장 위치]
 
 bundle exec jekyll serve
 ```
-성공.
+성공.  
 http://127.0.0.1:4000/ 로 접속하면 로컬로 확인하며 수정할 수 있다.
 ---
 'bundle install' 을 찾을 수 없는 오류
