@@ -17,21 +17,19 @@ category: SpringBoot
 H2 서버 실행  
 (나의 경우 C:\Program Files(x86)\H2\bin 위치의 h2.bat 실행)  
 
-![img1.png](./img1.png)
-
-![img2.png](./img2.png)  
-
+![img1.png](/public/img/springboot/h2/img1.png)
+![img2.png](/public/img/springboot/h2/img2.png)  
 연결 확인 후 되돌아가서 url 을 jdbc:h2:tcp://localhost/~/test 로 변경 후 재 연결  
 어플리케이션과 콘솔 동시 접근 오류를 예방하기 위함
 
 ---  
-Spring Boot 와 연결 시작  
+## Spring Boot 와 연결 시작
 의존성 추가(나는 스프링부트 스타터로 미리 추가를 해놨었다.)
 ```
 runtimeOnly 'com.h2database:h2'
 ```
-H2는 인메모리/임베다드 두가지 모드로 나누어지는데 인메모리는 어플리케이션의 메모리에 저장되는 방식이기 때문에 어플리케이션 종료와 함께 데이터가 날아간다.  
-
+H2는 인메모리/임베다드 두가지 모드로 나누어지는데,  
+인메모리는 어플리케이션의 메모리에 저장되는 방식이기 때문에 어플리케이션 종료와 함께 데이터가 날아간다.
 H2와의 연결은  application.yml 을 다음과 같이 설정했다.
 ```
 spring:
