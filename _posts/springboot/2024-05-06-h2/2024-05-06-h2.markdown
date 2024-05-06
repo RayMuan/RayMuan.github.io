@@ -17,9 +17,9 @@ category: SpringBoot
 H2 서버 실행  
 (나의 경우 C:\Program Files(x86)\H2\bin 위치의 h2.bat 실행)  
 
-![img1.png](/img1.png)
+![img1.png](./img1.png)
 
-![img2.png](img2.png)  
+![img2.png](./img2.png)  
 
 연결 확인 후 되돌아가서 url 을 jdbc:h2:tcp://localhost/~/test 로 변경 후 재 연결  
 어플리케이션과 콘솔 동시 접근 오류를 예방하기 위함
